@@ -5,4 +5,4 @@
 
 ### Tugas HTML Perkuliahan Minggu ke-3
 1. Halaman web CV : cv.html
-2. Untuk asset gambar pada file cv.html bernama profile.jpg
+2. Untuk asset gambar pada file cv.html dapat menggunakan file bernama profile.jpg
