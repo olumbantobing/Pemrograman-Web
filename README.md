@@ -11,3 +11,6 @@
 1. Halaman web CV : cv-css.html
 2. Untuk asset gambar pada file cv.html dapat menggunakan file bernama profile.jpg
 3. Lanjutan tugas minggu 3, sengaja saya bedakan filenya agar terlihat perbedaannya
+
+### Tugas Perkuliahan Minggu ke-4
+1. Ada pada folder task_2
