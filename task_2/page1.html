@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV Maker Form</title>
+        <style>
+            body {
+                font-family: 'Segoe UI';
+                margin-top: 90px;
+                padding: 10px;
+                background-color: lightgoldenrodyellow;
+            }
+            header {
+                width: 100%;
+                height: 90px;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                text-align: center;
+                color: rgb(247, 247, 247);
+                background-color: #494241;
+            }
+            form {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                margin-top: 70px;
+                padding: 20px 25px;
+                width: 600px;
+            }
+            form input {
+                width: calc(100% - 20px);
+                padding: 8px 10px;
+                margin-bottom: 15px;
+                border: none;
+                background-color: transparent;
+                border-bottom: 2px solid rgb(74, 156, 207);                
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>CV MAKER FORM</h1>
+        </header>
+        <div>
+            <form action="./page2.html" method="GET">
+                <fieldset>
+                  <legend><strong>BASIC INFORMATION</strong></legend>
+                    <label for="fullname">Full Name</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Your full name"><br>
+                    <label for="email">E-mail Address</label><br>
+                    <input type="text" id="email" name="email" placeholder="Your e-mail"><br>
+                    <label for="address">Address</label><br>
+                    <input type="text" id="address" name="address" placeholder="Your address"><br>
+                    <label for="number">Phone Number</label><br>
+                    <input type="text" id="number" name="number" placeholder="Your number"><br>
+                    <label for="birthday">Birth Date</label><br>
+                    <input type="date" id="birthday" name="birthday"><br>
+                    <label for="work">Work Experience</label><br>
+                    <input type="text" id="work" name="work" placeholder="Your job title, company name, start year, end year"><br>
+                    <label for="linkedin">LinkedIn</label><br>
+                    <input type="text" id="linkedin" name="linkedin" placeholder="Your LinkedIn (opsional)"><br>
+                    <button>Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
