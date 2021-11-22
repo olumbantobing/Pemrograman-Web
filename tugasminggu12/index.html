@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV Maker Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>CV MAKER FORM</h1>
+        </header>
+        <div>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                <fieldset>
+                  <legend><strong>BASIC INFORMATION</strong></legend>
+                    <label for="fullname">Full Name</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Your full name"><br>
+                    <label for="email">E-mail Address</label><br>
+                    <input type="text" id="email" name="email" placeholder="Your e-mail"><br>
+                    <label for="address">Address</label><br>
+                    <input type="text" id="address" name="address" placeholder="Your address"><br>
+                    <label for="number">Phone Number</label><br>
+                    <input type="text" id="number" name="number" placeholder="Your number"><br>
+                    <label for="birthday">Birth Date</label><br>
+                    <input type="date" id="birthday" name="birthday"><br>
+                    <label for="work">Work Experience</label><br>
+                    <input type="text" id="work" name="work" placeholder="Your job title, company name, start year, end year"><br>
+                    <label for="linkedin">LinkedIn</label><br>
+                    <input type="text" id="linkedin" name="linkedin" placeholder="Your LinkedIn (opsional)"><br>
+                    <label>Upload Profile Picture</label>
+                    <input type="file" name="image">
+                    <button>Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
